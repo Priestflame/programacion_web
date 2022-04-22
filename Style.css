@@ -1,0 +1,97 @@
+/* Estilo barra de navegacion*/
+nav{
+    background-color: white;
+}
+#bn_logo{
+    height: 50px;
+    width: 100px;
+}
+#bn_enlaces {
+    float: right;
+    font-size: 18px;
+    font-family: 'Calibri', 'sans-serif';
+}
+
+/*Estilo main body, para los body de todas las p�ginas en general*/
+.main {
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 15px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Estilo main Inicio*/
+#main_inicio{
+    text-align: center;
+    text-justify: auto;
+}
+
+/*Estilo tabla Experiencia*/
+#tabla_experiencia, td{
+    border: 2px;
+    border-block-style: solid;
+    width: 400px;
+}
+
+/*Estilo tabla Cursos*/
+#tabla_cursos {
+    padding: inherit;
+}
+
+/*Estilo main Formulario*/
+#main_formulario{
+    height: 425px;
+}
+
+/*Estilo textbox Formulario*/
+#tabla_formulario{
+    /*Con margin puedo centrar la tabla en la p�gina*/
+    margin: auto;
+    text-align: left;
+    height: 100px;
+}
+.tabla_formulario {
+    /*Con margin puedo centrar la tabla en la p�gina*/
+    margin: auto;
+    text-align: left;
+    height: 100px;
+}
+#tb_asunto{
+    width: 300px;
+}
+#tb_mensaje {
+    width: 850px;
+    height: 200px;
+    /*Tama�o y fuente del textarea (placeholder y texto a ingresar) tienen 
+    que ser puestos aparte porque no los afecta la configuracion del body*/
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 15px;
+}
+
+/*Estilo imagenes proyecto*/
+#act1 {
+    height: 180px;
+    width: 590px;
+}
+#act2 {
+    height: 450px;
+    width: 480px;
+}
+#act3 {
+    height: 380px;
+    width: 550px;
+}
+#act4 {
+    height: 380px;
+    width: 690px;
+}
+
+/*Estilo footer*/
+footer{
+    /*Color de fondo similar a color del logo*/
+    background-color: darkgreen;
+    height: 100px;
+    line-height: 30px;
+    font-style: italic;
+}

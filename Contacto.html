@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<!--Nombre de la pestaña debe cambiar según cada página-->
+		<title>Contacto - Portafolio Ricardo R.</title>
+		<meta charset="utf-8" />
+		<link href="Style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div>
+		<nav>
+			<!--Aca debe ir el logo de la barra-->
+			<img id="bn_logo" src="logo.jpg" />
+			<!--Aca debe ir los enlaces, alineados a la derecha-->
+			<!--Inhabilito la página en la que estoy para evitar que se caiga-->
+			<div id="bn_enlaces">
+				<p>
+					<a href="Inicio.html">INICIO</a> /
+					<a href="Experiencia.html">EXPERIENCIA</a> /
+					<a href="Proyectos.html">PROYECTOS</a> /
+					<b>CONTACTO</b>
+				</p>
+			</div>
+
+		</nav>
+		</div>
+
+	<div class="main" id="main_formulario">
+		<h1>Formulario de Contacto</h1>
+
+		<!--El formulario se organiza como una tabla, en una columna van las etiquetas y en la otra van los input-->
+		<!--El input de mensaje va en una celda combinada y más grande que las anteriores para facilitar el centrado-->
+
+		<form class="formulario" action="registrarCliente.php">
+			<table id="tabla_formulario">
+				<tr><td>Ingrese su nombre: </td><td><input type="text" id="tb_asunto" name="nombre" placeholder="Nombre y Apellidos"></td></tr>
+				<tr><td>Ingrese su correo electrónico: </td><td><input type="text" id="tb_asunto" name="correo" placeholder="example@example.com"></td></tr>
+				<tr><td>Ingrese su telefono: </td><td><input type="text" id="tb_asunto" name="telefono" placeholder="p. ej., +56934907231"></td></tr>
+				<tr><td>Asunto:</td><td><input type="text" id="tb_asunto" name="asunto" placeholder="Asunto"></td></tr>
+				<tr><td colspan="2"><textarea id="tb_mensaje" name="text_area_formulario" placeholder="Ingrese su mensaje aquí..."></textarea></td></tr>
+				<tr><td colspan="2" align="center"><input type="submit" name="b_enviar"></td></tr>
+			</table>
+		</form>
+	</div>
+
+	<footer>
+		<!--Organizado como una lista, le doy espaciado en CSS para aprovechar el espacio extra del footer-->
+		<ul>
+			<li><b>Ricardo Ignacio Rojas Henríquez</b></li>
+			<li><b>IP-CFT Santo Tomás</b></li>
+			<li><b>Programación Web - Analista Programador 2022</b></li>
+		</ul>
+	</footer>
+
+
+	</body>
+
+</html>
